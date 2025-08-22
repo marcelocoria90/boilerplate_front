@@ -72,7 +72,7 @@ The page is structured with:
 1. Clone the repository
 
 ```bash
-git clone [https://github.com/marcelocoria90/boilerplate_front]
+git clone https://github.com/marcelocoria90/boilerplate_front
 ```
 
 2. Install dependencies
