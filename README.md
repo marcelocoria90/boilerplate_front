@@ -20,10 +20,45 @@ src/
 │   └── ui/        # Basic UI components
 ├── hooks/         # Custom React hooks
 ├── pages/         # Page components
+│   ├── agendar-certificado/    # Certificado scheduling page
+│   │   ├── components/         # Page-specific components
+│   │   │   ├── EjemploCard.jsx
+│   │   │   └── EmailManager.jsx
+│   │   └── AgendarCertificadoPage.jsx
 ├── routes/        # Routing configuration
 ├── theme/         # Theme configuration
 └── utils/         # Utility functions
 ```
+
+## Pages Description
+
+### Agendar Certificado Page (`/agendar-certificado`)
+
+A demonstration page that showcases:
+
+- Email management functionality
+- Custom component integration
+- Responsive layout using Tailwind CSS
+
+#### Components
+
+- **EmailManager**: Handles email operations and management
+- **EjemploCard**: Example card component for demonstration purposes
+
+#### Layout
+
+The page is structured with:
+
+- A header section displaying the page title
+- A centered email management section
+- A demonstration card component
+- An informative text section explaining the page's purpose
+
+#### Styling
+
+- Uses Flexbox for layout management
+- Implements responsive design using Tailwind CSS classes
+- Maintains consistent spacing with `mt-4` margin utilities
 
 ## Getting Started
 
