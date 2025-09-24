@@ -1,6 +1,8 @@
 /* Tailwind v4 */
-@import "tailwindcss";
-@plugin "tailwindcss-animate";
+/* @import "tailwindcss";
+@plugin "tailwindcss-animate"; */
+@import 'tailwindcss'; /* base path del proyecto */
+@import 'tw-animate-css';
 
 /* 1) Tokens HSL “estilo shadcn” */
 :root {
@@ -96,10 +98,19 @@
 
 /* 3) Base styles */
 @layer base {
-  * { @apply border-border; }
-  body { @apply bg-background text-foreground antialiased; }
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
 }
 
 /* 4) Tu helper de scrollbar (opcional) */
-.scrollbar-hide::-webkit-scrollbar { display: none; }
-.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
